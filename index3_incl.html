@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+        <meta charset="utf-8">
+        <meta name="generator" content="Git Pages">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>pgen.frama.io</title>
+        
+        <link href="./css/min.css" rel="stylesheet" type="text/css" />
+        <link id="currentCSS" href="./css/si3t.css" rel="stylesheet" type="text/css" />
+        
+        <script  type="text/javascript">
+            function changeColors (newCSS){
+                document.getElementById('currentCSS').href = newCSS; 
+            }
+        </script>
+        <style>
+            #CSSswitch {float:right; font-size:.8em}
+        </style>
+  </head>
+  <body>
+    <header>
+        
+        <nav class="nav" tabindex="-1" onclick="this.focus()">
+			<div class="container">
+                <a class="pagename current" href="#">pgen.frama.io</a>
+                <a href="https://pages.gitlab.io/plain-html/">Plain HTML Example </a>
+                <a href="https://gitlab.com/pages/plain-html/">Repository </a>
+                <a href="https://gitlab.com/pages/">Other Examples </a>
+            </div>
+		</nav>
+		<button class="btn-close btn btn-sm">×</button>
+		
+
+    </header>
+  
+        <!-- css switch -->
+        <div id="CSSswitch">
+        <p>Change css :</p>
+            <ul class="inline">
+                <li><a href="#" onClick="javascript:changeColors('./css/min.css');return false;" id="./css/min">min</a></li>
+                <li><a href="#" onClick="javascript:changeColors('./css/boltcss.css');return false;" id="./css/boltcss">boltcss</a></li>
+                <li><a href="#" onClick="javascript:changeColors('./css/si3t.css');return false;" id="./css/si3t">si3t</a></li>
+                <li><a href="#" onClick="javascript:changeColors('./css/typesafe.css');return false;" id="./css/typesafe">typesafe</a></li>
+                <li><a href="#" onClick="javascript:changeColors('./css/simplecss.css');return false;" id="default">simple</a></li>
+            </ul>
+        </div>
+        <!-- /css switch --> 
+  
+    <main>
+
+        <h1>Hello World!</h1>
+        <pre>Balise Pre</pre>
+        <blockquote>Balise blockquote</blockquote>
+        <a href="https://pgen.frama.io/site">site</a>
+        <p>
+        !!! MODIF !!!<br/>
+        This is a simple plain-HTML website on Git Pages, without any fancy static site generator.
+        </p>
+        <?php include('incl.php'); ?>
+        <div class="row">
+            <div class="col c3">
+                <h3>Colonne 1</h3>
+                You can view the source of this page and copy it to get a quick start on a project with Min!<br>
+                <a href="http://owenversteeg.com" class="btn btn-sm btn-a">Do stuff!</a>
+            </div>
+            <div class="col c6">
+                <h3>Colonne 2</h3>
+                You can view the source of this page and copy it to get a quick start on a project with Min!
+            </div>    
+            <div class="col c2">
+                <h3>Colonne 3</h3>
+                You can view the source of this page and copy it to get a quick start on a project with Min!<br>
+                <a href="#" class="btn btn-sm btn-c">Do stuff!</a></div>
+            </div>
+            <hr/>
+    </div>
+        
+    </main>
+    <footer>
+            <p>Pied de page</p>
+    </footer>
+  </body>
+</html>
+
