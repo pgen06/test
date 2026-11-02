@@ -1,7 +1,4 @@
-{'type': 'FeatureCollection',
-'name': 'itineraires',
-'crs': { 'type': 'name', 'properties': { 'name': 'urn:ogc:def:crs:OGC:1.3:CRS84' } },
-'features': [
+{'type': 'FeatureCollection','features': [
 { 'type': 'Feature', 'properties': { 'ID': 'I002', 'Intit': 'Georges GENOUD', 'sosa':'2', 'branche':'0','generation':'1','periode':'Speriode','naiss':'1916', 'deces':'2004'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.29158,46.0032],[4.84171,45.74635],[5.59115,45.62843] ] } },
 { 'type': 'Feature', 'properties': { 'ID': 'I003', 'Intit': 'Josette HUMBERT', 'sosa':'3', 'branche':'1','generation':'1','periode':'Speriode','naiss':'1924', 'deces':'2015'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.56327,45.63463],[4.84171,45.74635],[5.59115,45.62843] ] } },
 { 'type': 'Feature', 'properties': { 'ID': 'I004', 'Intit': 'François GENOUD', 'sosa':'4', 'branche':'00','generation':'2','periode':'Speriode','naiss':'1874', 'deces':'1938'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.31706,46.04018],[5.28932,46.00322],[5.29158,46.0032],[5.28932,46.00322] ] } },
