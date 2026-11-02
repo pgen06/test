@@ -153,5 +153,5 @@
 { 'type': 'Feature', 'properties': { 'ID': 'I050', 'Intit': 'Jean GENOUD', 'sosa':'1024', 'branche':'00','generation':'10','periode':'Speriode','naiss':'1621', 'deces':'1676'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.73819,46.17812],[5.63414,46.14007] ] } },
 { 'type': 'Feature', 'properties': { 'ID': 'I049', 'Intit': 'Matthia GUILLOT', 'sosa':'1025', 'branche':'00','generation':'10','periode':'Speriode','naiss':'', 'deces':'1680'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.60593,46.15494] ] } },
 { 'type': 'Feature', 'properties': { 'ID': 'I189', 'Intit': 'Matthieu EVRARD', 'sosa':'1026', 'branche':'00','generation':'10','periode':'Speriode','naiss':'', 'deces':'1707'}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.60593,46.15494],[5.60593,46.15494],[5.63414,46.14007] ] } },
-{ 'type': 'Feature', 'properties': { 'ID': 'I190', 'Intit': 'Milande BERROT', 'sosa':'1027', 'branche':'00','generation':'10','periode':'Speriode','naiss':'', 'deces':''}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.60593,46.15494],[5.60593,46.15494] ] } },
+{ 'type': 'Feature', 'properties': { 'ID': 'I190', 'Intit': 'Milande BERROT', 'sosa':'1027', 'branche':'00','generation':'10','periode':'Speriode','naiss':'', 'deces':''}, 'geometry': { 'type': 'LineString', 'coordinates': [ [5.60593,46.15494],[5.60593,46.15494] ] } }
 ]}
